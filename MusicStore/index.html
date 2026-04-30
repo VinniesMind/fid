@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf=8">
+    <title>Music Shop</title>
+    <link rel = "preconnect" href="https://fonts.googleapis.com">
+    <link rel = "preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="" rel="stylesheet">
+    <style>
+        body{
+            background-color: burlywood;
+            background-position: top center;
+            background-attachment: fixed;
+        }
+        header{
+            margin-top: 0;
+            padding: 2em 1em 2em 1em;
+            background-image: url(Images/Banner.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position: center;
+            text-align: center;
+            border: 6px double;
+            color:rgb(175, 5, 5);
+        }
+        #TitleText{
+            color:black;
+        }
+        .Music{
+            display:flex;
+            gap: 100px;
+            justify-content: center;
+        }
+        .Music img{
+            width: 50%
+        }
+        .Miscellaneous{
+            display:flex;
+            justify-content: center;
+        }
+        .Miscellaneous img{
+            width: 50%
+        }
+        .Contact{
+            display:flex;
+            gap: 8px;
+            justify-content: center;
+        }
+        .Contact img{
+            width:40%
+        }
+        div{
+            list-style-type: none;
+        }
+    </style>
+
+    <body>
+        <header>
+            <h1>Spinners</h1>
+
+            <div id="TitleText">
+                <b><p>We sell Vinyls, CD's, Record players, Blind Boxes, and more!</p></b>
+            </div>
+        </header>
+        <div class="Music">
+                <li><a href="Vinyls.html"><img src="Images/VinylTN.png" alt="Vinyls"></a><br><p>Vinyls</p></li>
+                <br>
+
+                <li><a href="CDs.html"><img src="Images/CDTN.png" alt="CDs"></a><br><p>CDs</p></li>
+                <br>
+            </div>
+
+        <div class="Miscellaneous">
+                <li><a href="Misc.html"><img src="Images/MiscTN.png" alt="Miscellaneous"></a><br><p>Miscellaneous</p></li>
+                </div>
+
+        <div class="Contact">
+               <li><a href="NewsLetter.html"><img src="Images/NewsletterTN.png" alt="NewsLetter"></a><br><p>Newsletter</p></li>
+                <li><a href="Contact.html"><img src="Images/ContactTN.png" alt="Contact"></a><br><p>Contact</p></li>
+                </div>
+    </body>
+
+
+</head>
+
+</html>
